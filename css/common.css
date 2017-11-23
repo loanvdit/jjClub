@@ -9,6 +9,10 @@ img {
 	max-width: 100%;
 }
 
+h2 {
+	text-align: center;
+}
+
 .footer_bnn {
 	padding-top: 45px;
 	padding-bottom: 45px;
@@ -199,10 +203,18 @@ img {
 	border-radius: 30% !important;
 }
 /* end custom */
-
 .division {
 	height: 1px;
 	background-color: #CCCCCC;
 	margin-bottom: 18px;
 	clear: both;
+}
+.c-red {
+	color: #FF0000;
+}
+.c-pink {
+	color: #FF4A93;
+}
+.c-white {
+	color: white;
 }
