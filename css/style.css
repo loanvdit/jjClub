@@ -1,0 +1,19 @@
+/* custom panel primary */
+.panel-primary {
+    border-color: #FF4A93;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #FF4A93;
+    border-color: #FF4A93;
+}
+.panel-primary>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #FF4A93;
+}
+.panel-group .panel, .panel-heading {
+    border-radius: 0;
+}
+.panel-group .panel+.panel {
+    margin-top: 0;
+}
+/* end custom panel primary */

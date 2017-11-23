@@ -1,0 +1,200 @@
+body {
+	font-size: 13.5px;
+	font-family: "小塚ゴシック Pro", sans-serif;
+}
+img {
+	max-width: 100%;
+}
+
+.footer_bnn {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	margin: auto;
+	text-align: center;
+}
+.footer {
+	border-top:5px solid #FFA9CF;
+	width: 100%;
+	background-color: #FF4A93;
+	text-align: center;
+	font-size: 12pt;
+	font-family: meiryo, sans-serif;
+	padding: 20px 15px;
+}
+.footer .f_des {
+	color: white;
+}
+.footer .f_copyright {
+	color: black;
+}
+.header {
+	margin: auto;
+	text-align: center;
+	padding: 70px 20px;
+}
+.header img {
+	height: auto;
+	width: auto;
+}
+.body {
+	background: #F2F2F2;
+	position: relative;
+}
+.overflow-hidden {
+	overflow: hidden;
+}
+.girl_bg_pink {
+	background: #FFEDF5;
+}
+
+.girl_bg_white {
+	background: white;
+}
+
+.no_padding {
+	padding: 0px !important;
+}
+
+.mb-1{
+	margin-bottom: 1em;
+}
+
+/* custom panel primary */
+.panel-title {
+	font-size: 14px;
+}
+.panel-title .fa {
+	margin-top: -15px;
+}
+.panel-primary {
+	border-color: #FF4A93;
+	border-bottom: 1px solid #f0f0f0;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #FF4A93;
+    border-color: #FF4A93;
+    padding: 7px 15px;
+}
+.panel-primary>.panel-heading+.panel-collapse>.panel-body {
+	border-top-color: #FF4A93;
+	border-bottom: 1px solid #FF4A93;
+}
+.panel-group .panel, .panel-heading {
+    border-radius: 0;
+}
+.panel-group .panel+.panel {
+    margin-top: 0;
+}
+
+/* end custom panel primary */
+
+/* custom radio button, checkbox */
+
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: 40%;
+    width: 1.3em;
+    height: 1.25em;
+    float: left;
+    margin-right: .5em;
+}
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: 13px;
+    line-height: 0;
+    top: 8px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #FF4A93;
+    margin: auto;
+}
+.checkbox .cr .cr-icon {
+    position: absolute;
+    font-size: 1.5em;
+    line-height: 0;
+    top: 50%;
+    left: 0%;
+	color: #FF4A93;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(0.1);
+    opacity: 0;
+    transition: all .1s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+
+/* end custom radio button, checkbox */
+
+/* custom button */
+	.btn-border-black {
+		border: 1px solid #000;
+		border-radius: 0;
+		background: transparent;
+		padding: 6px 80px;
+		color: #000;
+	}
+	.btn-boder-white {
+		border: 1px solid #fff;
+		border-radius: 0;
+		background: transparent;
+		padding: 6px 80px;
+		color: #fff;
+		width: 100%;
+	}
+	.btn-boder-white:hover {
+		border: 1px solid #FF4A93;
+		color: #FF4A93;
+	}
+/* end custom button */
+
+/* custom modal */
+.modal, .modal-backdrop {
+    position: absolute !important;
+}
+.modal-transparent {
+	margin-top: 100px;
+}
+.modal-transparent .modal-content {
+	background-color: transparent;
+    box-shadow: none;
+    border: 0 none;
+}
+.modal-transparent .modal-content .modal-body
+{
+	color: #fff;
+}
+.modal-transparent .modal-content .modal-footer
+ {
+	 border-top: 0 none;
+ }
+
+/* end custom modal */
