@@ -155,25 +155,25 @@ img {
 /* end custom radio button, checkbox */
 
 /* custom button */
-	.btn-border-black {
-		border: 1px solid #000;
-		border-radius: 0;
-		background: transparent;
-		padding: 6px 80px;
-		color: #000;
-	}
-	.btn-boder-white {
-		border: 1px solid #fff;
-		border-radius: 0;
-		background: transparent;
-		padding: 6px 80px;
-		color: #fff;
-		width: 100%;
-	}
-	.btn-boder-white:hover {
-		border: 1px solid #FF4A93;
-		color: #FF4A93;
-	}
+.btn-border-black {
+	border: 1px solid #000;
+	border-radius: 0;
+	background: transparent;
+	padding: 6px 80px;
+	color: #000;
+}
+.btn-boder-white {
+	border: 1px solid #fff;
+	border-radius: 0;
+	background: transparent;
+	padding: 6px 80px;
+	color: #fff;
+	width: 100%;
+}
+.btn-boder-white:hover {
+	border: 1px solid #FF4A93;
+	color: #FF4A93;
+}
 /* end custom button */
 
 /* custom modal */
@@ -198,3 +198,17 @@ img {
  }
 
 /* end custom modal */
+
+/* start custom */
+.checkbox .cr, .radio .cr {
+	background: white !important;
+	border-radius: 30% !important;
+}
+/* end custom */
+
+.division {
+	height: 1px;
+	background-color: #CCCCCC;
+	margin-bottom: 18px;
+	clear: both;
+}
