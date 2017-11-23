@@ -1,4 +1,13 @@
 
+.header {
+	margin: auto;
+	text-align: center;
+	padding: 70px 20px;
+}
+.header img {
+	height: auto;
+	width: auto;
+}
 .nav {
 	text-align: center;
 }

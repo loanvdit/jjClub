@@ -1,3 +1,6 @@
+html, body {
+	height: 100%;
+}
 body {
 	font-size: 13.5px;
 	font-family: "小塚ゴシック Pro", sans-serif;
@@ -26,15 +29,6 @@ img {
 }
 .footer .f_copyright {
 	color: black;
-}
-.header {
-	margin: auto;
-	text-align: center;
-	padding: 70px 20px;
-}
-.header img {
-	height: auto;
-	width: auto;
 }
 .body {
 	background: #F2F2F2;
