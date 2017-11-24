@@ -341,38 +341,30 @@
 }
 .blog {
     background: #FFA9CF;
-    text-align: center;
 }
-.blog h2 {
-    padding-top: 30px;
-}
-.bg-group ul {
-    margin: auto;
-}
-.bg-group ul li {
-    margin-right: 6px;
-    list-style: none;
-    float: left;
+.bg-group {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .b-item {
-    padding: 6px;
+    padding: 4px;
     width: 20%;
     float: left;
 }
 .b-content{
-    padding: 6px;
+    padding: 4px;
 }
 .w-btn-white {
     clear: both;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
 }
 .w-btn-white .btn-border-white{
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: none;
-    padding: 16px 40px;
-    font-size: 18px;
-    background: #FFA9CF;
+    padding: 7px 60px;
+    background: transparent;
 }
 .b-lastest {
     color: #000;
@@ -402,18 +394,164 @@
     background: #FF4A93;
     text-align: center;
 }
-.video h2 {
-    padding-top: 30px;
-}
+
 .w-btn-red {
     clear: both;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .w-btn-red .btn-border-red{
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: none;
-    padding: 16px 40px;
-    font-size: 18px;
-    background: #FF4A93;
+    padding: 7px 60px;
+    background: transparent;
 }
+
+/* section recommended */
+.recommended  {
+    padding-top: 10px;
+}
+.recommended h3{
+    border-bottom: 2px solid #dfdfdf;
+    padding-bottom: 10px;
+}
+/* end section recommended */
+/* section fee system */
+.fee-system  {
+    padding-top: 30px;
+}
+.fee-system h3{
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 10px;
+}
+/* end section fee system */
+/* section news*/
+.news  {
+    padding-top: 15px;
+}
+.news h3{
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 10px;
+}
+.news-girl-info .news-label {
+    padding: 5px 10px;
+    background-color: #FF4A93;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.news-event .news-label {
+    padding: 5px 10px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.news-cuppon .news-label {
+    padding: 5px 10px;
+    background-color: #000;
+    color: red;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.news-girl-info .news-title>a {
+    color: #FF4A93;
+}
+.news-event .news-title>a {
+    color: red;
+}
+.news-cuppon .news-title>a {
+    color: #000;
+}
+.news .news-img {
+    width: 20%;
+    float: left;
+}
+.news .news-info {
+    width: 80%;
+    float: left;
+    padding: 0 20px 0 5px;
+    font-size: 12px;
+    min-height: 115px;
+}
+.news .news-info-full {
+    width: 100%;
+    padding: 0 20px 0 0;
+    font-size: 12px;
+}
+.news-list .news-girl-info,
+.news-list .news-event,
+.news-list .news-cuppon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+.news-list .news-girl-info hr,
+.news-list .news-event hr,
+.news-list .news-cuppon hr {
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-color: #dfdfdf;
+}
+/* end section news */
+
+/* section panels */
+.jj-panel {
+    padding: 15px;
+    background-color: #fff;
+}
+    .jj-panel-pink {
+        border: 5px solid #FF4A93;
+    }
+    .jj-panel-pink .jj-panel-title {
+        background-color:  #FF4A93;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .jj-panel-pink .jj-panel-title-small {
+        background-color:  #FF4A93;
+        color: #fff;
+        padding: 5px 10px;
+        text-align: center;
+    }
+    .jj-panel-title h4 {
+        margin: 0;
+    }
+    .jj-panel-success {
+        border: 5px solid #22b573;
+    }
+    .jj-panel-success .jj-panel-title {
+        background-color:  #22b573;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .jj-panel-info {
+        border: 5px solid #29abe2;
+    }
+    .jj-panel-info .jj-panel-title {
+        background-color:  #29abe2;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .jj-panel-warning {
+        border: 5px solid #f7931e;
+    }
+    .jj-panel-warning .jj-panel-title {
+        background-color:  #f7931e;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .jj-panel-pink-light {
+        border: 5px solid #ffaad0;
+    }
+    .jj-panel-pink-light .jj-panel-title {
+        background-color:  #ffaad0;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+/* end section panels */
