@@ -9,4 +9,8 @@ $( document ).ready(function() {
     //remove the padding right and modal-open class from the body tag which bootstrap adds when a modal is shown
     $('body').removeClass("modal-open")
     $('body').css("padding-right","");  
+    $('.carousel').carousel({
+        pause: true,
+        interval: false,
+      });
 });

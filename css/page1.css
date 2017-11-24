@@ -36,3 +36,85 @@
     height: 60px;
 }
 /* end custom navbar */
+
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  background-image: none;
+  background: none;
+  border-radius: 23px 23px 23px 23px;
+  height: 100px;
+  width : 40px;
+  margin: auto;
+  color: #FFA9CF;
+  text-shadow: none;
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  background-image: none;
+  background: none;
+  height: 100px;
+  width : 40px;
+  margin: auto;
+  color: #FFA9CF;
+  text-shadow: none;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 100%;
+}
+.thumbnail {
+    margin-bottom: 0;
+}
+.carousel-inner {
+    padding: 0 10px;
+}
+.item-child {
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+    position: relative;
+    min-height: 1px;
+}
+@media (min-width: 992px)
+{
+    .item-child {
+        width: 20%;
+    }
+}
+.item-child .state{
+    margin: 5px 0;
+}
+.item-child .cate{
+    color: #000;
+    margin: 5px 0;
+}
+.item-child .desc{
+    color: #666;
+    margin: 5px 0;
+}
+/* End carousel */
