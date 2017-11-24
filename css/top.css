@@ -1,8 +1,4 @@
 /* custom navbar */
-.body {
-    background-color: #fff;
-}
-
 .navbar {
     min-height: 60px;
 }
@@ -326,13 +322,13 @@
 .w-btn-pink {
     width: 100%;
     padding-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .w-btn-pink .btn-border-pink{
-    border: 1px solid #FF4A93;
+    border: 2px solid #FF4A93;
     border-radius: none;
-    padding: 16px 40px;
+    padding: 5px 20px;
     font-size: 18px;
     background: white;
 }
@@ -359,7 +355,11 @@
     float: left;
 }
 .b-item {
-    background: white;
+    padding: 6px;
+    width: 20%;
+    float: left;
+}
+.b-content{
     padding: 6px;
 }
 .w-btn-white {
@@ -375,10 +375,28 @@
     background: #FFA9CF;
 }
 .b-lastest {
-    padding-left: 20px;
+    color: #000;
+}
+.g-s-info {
+    margin-top: 30px;
 }
 .b-item .g-info {
     text-align: left;
+    padding: 10px;
+}
+.g-avatar{
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.g-info-detail {
+    float: left;
+}
+.g-info-detail p{
+ margin: 0;
 }
 .video {
     background: #FF4A93;

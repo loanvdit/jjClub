@@ -218,3 +218,9 @@ h2 {
 .c-white {
 	color: white;
 }
+.bg-white {
+	background-color: #fff;
+}
+.pt-2 {
+	padding-top: 2em;
+}
