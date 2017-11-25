@@ -180,6 +180,9 @@
 
 /* Iphone 6 */
 @media screen and (max-width: 375px), @media screen and (max-width: 340px), @media screen and (max-width: 420px) {
+	.body {
+		margin-top: 0px;
+	}
 	.body .title h2 {
 		padding-right: 50px;
 	}
