@@ -558,3 +558,122 @@
         text-align: center;
     }
 /* end section panels */
+
+.n-note {
+	padding-left: 40px;
+}
+.pre-footer {
+	margin-top: 30px;
+	background: white;
+	padding-bottom: 30px;
+}
+.pre-footer h2, .pre-footer-02 h2 {
+	color: #999999;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #999999;
+	text-align: center;
+}
+.pre-footer-body {
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: left;
+	margin: auto;
+	width: 65%;
+	border-radius: 20px;
+	background: white;
+	position: relative;
+	font-family: "Meiryo", sans-serif;
+	font-size: 14px;
+}
+.pre-footer-body-02 {
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: left;
+	margin: auto;
+	width: 100%;
+	border-radius: 20px;
+	background: white;
+	position: relative;
+	font-family: "Meiryo", sans-serif;
+	font-size: 16px;
+}
+.pre-footer-body img {
+	width: 100%;
+}
+.pre-footer-body span {
+	line-height: 32px;
+}
+.hd-info {
+	padding-right: 100px;
+}
+.pre-footer-body .item {
+	width: 100%;
+	border-bottom: solid 1px #999999;
+	padding-bottom: 5px;
+	clear: both;
+}
+.pre-footer-body .item:last-child {
+	border-bottom: none;
+}
+.pre-footer-body .item .col-4 {
+	width: 30%;
+	float: left;
+	padding-top: 10px;
+}
+.pre-footer-body .item .col-6 {
+	width: 70%;
+	float: right;
+	padding-top: 10px;
+}
+.bn-09 {
+	padding-top: 30px;
+}
+.num-phone {
+	font-size: 18px;
+}
+
+.pre-footer-02 {
+	background: white;
+	padding-bottom: 30px;
+}
+
+.w-pre-footer {
+	background: white;
+}
+
+/* Responsive fixed */
+
+/* Iphone 6 */
+@media screen and (max-width: 375px), @media screen and (max-width: 340px), @media screen and (max-width: 420px) {
+	.body .title h2 {
+		padding-right: 50px;
+	}
+	.m-body {
+		background: none !important;
+	}
+	.body {
+		width: 100% !important;
+	}
+	.b-news, .news-item {
+		margin-left: 0px !important;
+    	margin-right: 0px !important;
+	}
+	.n-note {
+		display: block;
+		padding-left: 0px !important;
+		padding-top: 10px;
+	}
+	.pre-footer-body, .pre-footer-body-02 {
+		width: 100% !important;
+	}
+	.pre-footer-body-02 img {
+		width: 100% !important;
+		padding-bottom: 20px;
+	}
+	.pre-footer-body .item, .pre-footer-body-02 .item {
+		padding-top: 10px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
