@@ -139,7 +139,10 @@
 }
 
 /* start mobile style */
-@media screen and (min-width: 320px) {
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
     .panel-first {
     	width: 100% !important;
     	height: 45px !important;
@@ -188,20 +191,21 @@
 	}
 }
 
-/**/
-@media screen and (max-width: 340px) {
-	.girl_item img {
-		width: 340px !important;
-	}
-}
 /* Iphone 6 */
-@media screen and (max-width: 375px) {
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
 	.girl_item img {
 		width: 355px !important;
 	}
 }
-/* Iphone 6 Plus */
-@media screen and (max-width: 420px) {
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 	.girl_item img {
 		width: 395px !important;
 	}

@@ -1,45 +1,7 @@
 .m-body {
 	background: url("../images/common/headimg.jpg") repeat-y;
 	width: 100%;
-	text-align: center;
-}
-.m-nav {
-	position: relative;
-}
-nav {
-	position: absolute;
-	top: 0px;
-	background: #000000;
-	opacity: 0.6;
-	height: 72px;
-}
-.m-nav ul li:first-child {
-	width: 184px;
-	padding-top: 0px;
-}
-.m-nav ul li {
-	height: 72px;
-	padding-top: 10px;
-	font-weight: bold;
-}
-
-.m-nav ul li:hover {
-	background: #FFA9CF !important;
-}
-
-.m-nav ul li a:hover {
-	background: #FFA9CF !important;
-	color: white;
-}
-
-.navbar-header {
-	position: absolute;
-}
-
-.container-fluid {
-	position: absolute;
-	top: 0px;
-	width: 100%;
+	overflow: hidden;
 }
 .nav  .dis {
 	width: 1px;
@@ -258,3 +220,57 @@ nav {
 	
 }
 /* end mobile style */
+/* custom navbar */
+.navbar {
+    min-height: 60px;
+}
+.navbar-default {
+    background-color: rgba(0, 0,0,0.8);
+    border: 0 none;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-default .navbar-nav>li>a::before {
+    content: '';
+    padding-right: 20px;
+}
+.navbar-default .navbar-nav>li>a::after {
+    content: '';
+    border-right: 1px solid #fff;
+    padding-left: 20px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #FFA9CF;
+}
+.navbar-brand {
+    background-color: #FF4A93;
+    padding: 5px;
+    height: 60px;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color:transparent;
+    border: 0 none;
+    border-radius: 0;
+    border-left: 1px solid #fff;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 40px;
+    height: 5px;
+    border-radius: 1px;
+    background-color: #FF4A93 !important;
+    border-color: #FF4A93;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 5px;
+}
+/* end custom navbar */

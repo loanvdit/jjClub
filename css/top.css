@@ -148,6 +148,12 @@
         width: 20%;
     }
 }
+@media (max-width: 768px)
+{
+    .item-child {
+        width: 100%;
+    }
+}
 .item-child .state{
     margin: 5px 0;
 }
