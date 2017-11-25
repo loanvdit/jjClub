@@ -35,6 +35,23 @@
     padding: 5px;
     height: 60px;
 }
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color:transparent;
+    border: 0 none;
+    border-radius: 0;
+    border-left: 1px solid #fff;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 40px;
+    height: 5px;
+    border-radius: 1px;
+    background-color: #FF4A93 !important;
+    border-color: #FF4A93;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 5px;
+}
 /* end custom navbar */
 
 #thumbnail-slider {
@@ -533,6 +550,16 @@
     .jj-panel-info {
         border: 5px solid #29abe2;
     }
+    .jj-panel-info .btn-border-info {
+      background: white;
+      color: #29abe2;
+      border: 2px solid #29abe2;
+      border-radius: none !important;
+    }
+    .jj-panel-info .btn-border-info:hover {
+      background: #29abe2;
+      color: white;
+    }
     .jj-panel-info .jj-panel-title {
         background-color:  #29abe2;
         color: #fff;
@@ -551,11 +578,51 @@
     .jj-panel-pink-light {
         border: 5px solid #ffaad0;
     }
-    .jj-panel-pink-light .jj-panel-title {
+    .jj-panel-orange-light {
+        border: 5px solid #F7931E;
+    }
+    .jj-panel-bot {
+        border: 5px solid #22B573;
+    }
+    .jj-panel-bot .stp{
+        border: 5px solid #22B573;
+        padding: 5px 10px;
+        background: #FFFF00;
+        color: #22B573;
+        border-radius: 10px;
+        width: 17%;
+        font-size: 14px;
+        font-weight: normal;
+        float: left;
+        margin: 0px;
+    }
+    .jj-panel-bot .stp-cnt {
+      width: 82%;
+      float: right;
+      padding-left: 1em;
+    }
+    .jj-panel-pink-light .jj-panel-title{
         background-color:  #ffaad0;
         color: #fff;
         padding: 10px;
         text-align: center;
+    }
+    .jj-panel-orange-light .jj-panel-title {
+      background-color:  #F7931E;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    .jj-panel-bot .jj-panel-title {
+      background-color:  #22B573;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    .jj-panel-orange-light .jj-panel-title .bg-white {
+      padding: 3px 6px;
+      background: white;
+      color: #F7931E;
     }
 /* end section panels */
 
@@ -645,7 +712,10 @@
 /* Responsive fixed */
 
 /* Iphone 6 */
-@media screen and (max-width: 375px), @media screen and (max-width: 340px), @media screen and (max-width: 420px) {
+@media screen and (max-width: 375px), 
+@media screen and (max-width: 340px), 
+@media screen and (max-width: 420px),
+@media screen and (min-width: 412px) {
 	.body .title h2 {
 		padding-right: 50px;
 	}
@@ -676,4 +746,19 @@
 		padding-left: 5px;
 		padding-right: 5px;
 	}
+	.container-fluid .col-md-9 {
+		padding: 0px !important;
+	}
+	.navbar {
+		position: absolute;
+		width: 100%;
+		top: 60px;
+		z-index: 999;
+	}
+  .b-item {
+    width: auto !important;
+  }
+  .jj-panel-pink-light, .jj-panel-orange-light {
+    margin-top: 2em;
+  }
 }

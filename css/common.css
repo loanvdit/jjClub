@@ -221,6 +221,12 @@ h2 {
 .c-red {
 	color: #FF0000;
 }
+.c-orange {
+	color: #F7931E;
+}
+.clear {
+	clear: both;
+}
 .bg-white {
 	background-color: #fff;
 }
