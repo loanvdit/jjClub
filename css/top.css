@@ -342,6 +342,9 @@
 .blog {
     background: #FFA9CF;
 }
+.blog h3 {
+  text-align: center;
+}
 .bg-group {
     padding-left: 10px;
     padding-right: 10px;

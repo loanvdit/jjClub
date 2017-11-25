@@ -213,10 +213,13 @@ h2 {
 	color: #FF0000;
 }
 .c-pink {
-	color: #FF4A93;
+	color: #FF4A93 !important;
 }
 .c-white {
 	color: white;
+}
+.c-red {
+	color: #FF0000;
 }
 .bg-white {
 	background-color: #fff;
