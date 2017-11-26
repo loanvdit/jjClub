@@ -718,10 +718,7 @@
 /* Responsive fixed */
 
 /* Iphone 6 */
-@media screen and (max-width: 375px), 
-@media screen and (max-width: 340px), 
-@media screen and (max-width: 420px),
-@media screen and (min-width: 412px) {
+@media screen and (max-width: 375px), all and (max-width: 340px), all and (max-width: 420px), all and (min-width: 412px) {
 	.body .title h2 {
 		padding-right: 50px;
 	}
