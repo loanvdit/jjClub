@@ -1,7 +1,45 @@
 .m-body {
 	background: url("../images/common/headimg.jpg") repeat-y;
 	width: 100%;
-	overflow: hidden;
+	text-align: center;
+}
+.m-nav {
+	position: relative;
+}
+nav {
+	position: absolute;
+	top: 0px;
+	background: #000000;
+	opacity: 0.6;
+	height: 72px;
+}
+.m-nav ul li:first-child {
+	width: 184px;
+	padding-top: 0px;
+}
+.m-nav ul li {
+	height: 72px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.m-nav ul li:hover {
+	background: #FFA9CF !important;
+}
+
+.m-nav ul li a:hover {
+	background: #FFA9CF !important;
+	color: white;
+}
+
+.navbar-header {
+	position: absolute;
+}
+
+.container-fluid {
+	position: absolute;
+	top: 0px;
+	width: 100%;
 }
 .nav  .dis {
 	width: 1px;
@@ -40,6 +78,7 @@
 	margin-left: 40px;
 	margin-right: 40px;
 	padding-top: 80px;
+	padding-bottom: 80px;
 }
 .news-item {
 	margin-top: 30px;
@@ -180,9 +219,6 @@
 
 /* Iphone 6 */
 @media screen and (max-width: 375px), @media screen and (max-width: 340px), @media screen and (max-width: 420px) {
-	.body {
-		margin-top: 0px;
-	}
 	.body .title h2 {
 		padding-right: 50px;
 	}
@@ -223,57 +259,77 @@
 	
 }
 /* end mobile style */
-/* custom navbar */
-.navbar {
-    min-height: 60px;
+
+/* START Calendar */
+.jumbotron {
+  border: solid 1px white;
+  background: none !important;
+  color: white;  
+  padding: 0px !important;
+  margin-bottom: 10px !important;
 }
-.navbar-default {
-    background-color: rgba(0, 0,0,0.8);
-    border: 0 none;
-    margin-bottom: 0;
-    border-radius: 0;
+.jumbotron h1 {
+	font-size: 14px;
 }
-.navbar-default .navbar-nav>li>a{
-    color: #fff;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.jumbotron .text-center {
+	font-weight: bold;
 }
-.navbar-default .navbar-nav>li>a::before {
-    content: '';
-    padding-right: 20px;
+#left:hover, #right:hover {
+	text-decoration: none !important;
+	color: white;
+	cursor: pointer;
 }
-.navbar-default .navbar-nav>li>a::after {
-    content: '';
-    border-right: 1px solid #fff;
-    padding-left: 20px;
+.fa {
+  font-size: 14em;
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: #FFA9CF;
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 2px;
 }
-.navbar-brand {
-    background-color: #FF4A93;
-    padding: 5px;
-    height: 60px;
+th {
+  text-align: center;
 }
-.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color:transparent;
-    border: 0 none;
-    border-radius: 0;
-    border-left: 1px solid #fff;
+td {
+  width: 35px;
+  height: 10px;
+  text-align: center;
+  line-height: 30px !important;
+  font-size: 16px;
 }
-.navbar-toggle .icon-bar {
-    display: block;
-    width: 40px;
-    height: 5px;
-    border-radius: 1px;
-    background-color: #FF4A93 !important;
-    border-color: #FF4A93;
+td:hover {
+	cursor: pointer;
 }
-.navbar-toggle .icon-bar+.icon-bar {
-    margin-top: 5px;
+#year {
+  font-family: monospace;
 }
-/* end custom navbar */
+.hover {
+  background: #eee;
+}
+.day {
+	color: white;
+	text-decoration: underline;
+	background: rgba(0,0,0,0.6);
+}
+.day:hover {
+	text-decoration: none;
+	background: rgba(255,255,255,0.6);
+	color:  rgba(0,0,0,0.6);
+}
+.day-name {
+	font-weight: bold;
+	background: rgba(255,255,255,0.6);
+	color:  rgba(0,0,0,0.6);
+}
+/* END Calendar*/
+
+.video-tit {
+	background: url('../images/page2/bg_video.png') no-repeat;
+	width: 100%;
+	height: 32px;
+	margin-bottom: 5px;
+}
+.video-body {
+	width: 100%;
+	min-height: 200px;
+}
