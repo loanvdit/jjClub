@@ -345,6 +345,9 @@
     padding: 5px;
     height: 60px;
 }
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    background-color: #FF4A93;
+}
 .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color:transparent;
     border: 0 none;
