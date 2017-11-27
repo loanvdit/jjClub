@@ -1,3 +1,9 @@
+.bg-white h3 {
+  font-size: 40px;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
 /* custom navbar */
 .navbar {
     min-height: 60px;
@@ -345,7 +351,7 @@
 .w-btn-pink {
     width: 100%;
     padding-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     text-align: center;
 }
 .w-btn-pink .btn-border-pink{
@@ -365,8 +371,11 @@
 .blog {
     background: #FFA9CF;
 }
-.blog h3 {
+.blog h3, .video h3 {
   text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
+  font-weight: normal;
 }
 .bg-group {
     padding-left: 10px;
@@ -440,6 +449,7 @@
 .recommended h3{
     border-bottom: 2px solid #dfdfdf;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 /* end section recommended */
 /* section fee system */
@@ -449,6 +459,7 @@
 .fee-system h3{
     border-bottom: 1px solid #dfdfdf;
     padding-bottom: 10px;
+    padding-top: 30px;
 }
 /* end section fee system */
 /* section news*/
@@ -458,6 +469,7 @@
 .news h3{
     border-bottom: 1px solid #dfdfdf;
     padding-bottom: 10px;
+    padding-top: 30px;
 }
 .news-girl-info .news-label {
     padding: 5px 10px;
@@ -601,6 +613,7 @@
         font-weight: normal;
         float: left;
         margin: 0px;
+        text-align: center;
     }
     .jj-panel-bot .stp-cnt {
       width: 82%;
@@ -715,10 +728,16 @@
 	background: white;
 }
 
+.mh-266-5 {
+  min-height: 266.5px;
+}
+.mh-510 {
+  min-height: 266.5px;
+}
 /* Responsive fixed */
 
 /* Iphone 6 */
-@media screen and (max-width: 375px), all and (max-width: 340px), all and (max-width: 420px), all and (min-width: 412px) {
+@media only screen and (min-width:320px) and (max-width:767px) {
 	.body .title h2 {
 		padding-right: 50px;
 	}
@@ -761,7 +780,28 @@
   .b-item {
     width: auto !important;
   }
-  .jj-panel-pink-light, .jj-panel-orange-light {
-    margin-top: 2em;
+  .jj-panel-orange-light, .jj-panel-pink-light {
+    margin-top: 20px;
+  }
+  .qc img:last-child {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+  .pre-footer-body, .pre-footer-body-02 {
+    width: 100% !important;
+  }
+  .jj-panel-orange-light, .jj-panel-pink-light {
+    margin-top: 20px;
+  }
+  .qc img:last-child {
+    margin-top: 20px;
+  }
+  .qc {
+    text-align: center;
+  }
+  .pre-footer-body-02 {
+    float: left;
   }
 }

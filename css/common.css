@@ -243,14 +243,26 @@ h2 {
 .pt-2 {
 	padding-top: 2em;
 }
+.pt-40 {
+	padding-top: 40px;
+}
 .pb-2{
 	padding-bottom: 2em;
+}
+.pb-40 {
+	padding-bottom: 40px;
 }
 .mt-1{
 	margin-top: 1em;
 }
 .mt-2{
 	margin-top: 2em;
+}
+.mt-50 {
+	margin-top: 50px;
+}
+.mt-60 {
+	margin-top: 60px;
 }
 .mb-1{
 	margin-bottom: 1em;
