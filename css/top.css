@@ -67,6 +67,7 @@
 {
   margin-bottom: 0;
   padding: 0 50px;
+  margin-top: 5px;
 }
 /* Previous button  */
 .media-carousel .carousel-control.left 
@@ -274,8 +275,8 @@
 /* End carousel */
 .w-btn-pink {
     width: 100%;
-    padding-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 15px;
+    margin-bottom: 25px;
     text-align: center;
 }
 .w-btn-pink .btn-border-pink{
@@ -646,7 +647,17 @@
 }
 
 /* Responsive fixed */
-
+@media screen and (max-width: 767px) {
+	.navbar {
+		position: absolute;
+		width: 100%;
+		top: 60px;
+		z-index: 999;
+	}
+	.navbar .container-fluid .col-md-9 {
+		padding: 0px !important;
+	}
+}
 /* Iphone 6 */
 @media screen and (max-width: 375px), all and (max-width: 340px), all and (max-width: 420px), all and (min-width: 412px) {
 	.body .title h2 {
@@ -679,18 +690,6 @@
 		padding-left: 5px;
 		padding-right: 5px;
 	}
-	.container-fluid .col-md-9 {
-		padding: 0px !important;
-	}
-	.navbar {
-		position: absolute;
-		width: 100%;
-		top: 60px;
-		z-index: 999;
-	}
-  .b-item {
-    width: auto !important;
-  }
   .jj-panel-pink-light, .jj-panel-orange-light {
     margin-top: 2em;
   }
